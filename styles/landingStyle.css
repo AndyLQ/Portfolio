@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #171717;
+    color: white;
+    font-family: monospace;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+/*FORSIDE*/
+
+
+/*Type effect*/
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 1.8s steps(18, end),
+    blink-caret .80s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffcc00; }
+}
+
+#titlebox {
+    width: 260px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 41vh;
+    text-align: center;
+/*    border: white 2px solid;*/
+}
+
+#firstlink{
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    border:thin #171717 solid;
+}
+
+
+/*Portfolio side*/
+
+#pbody {
+    background-color: white;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+}
+
+

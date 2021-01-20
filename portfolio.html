@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio | Andy Le Quach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14e99b7b1b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="pbody">
+    <nav>
+        <div class="nav__box1">
+            <h2 class="nav__logo">ANDY LE QUACH</h2>
+        </div>
+        <div class="nav__box2">
+            <ul>
+                <a href="#frontpage">
+                    <li>FRONTPAGE</li>
+                </a>
+                <a href="#about">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#resume">
+                    <li>RESUME</li>
+                </a>
+                <a href="#portfolio">
+                    <li>PORTFOLIO</li>
+                </a>
+                <a href="#contact">
+                    <li>CONTACT</li>
+                </a>
+                <!-- <a href=""><li>DK/EN</li></a> -->
+            </ul>
+        </div>
+        <div class="nav__box3">
+            <span onclick="openNav()" class="hamburger"><i class="fas fa-hamburger"></i></span>
+        </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        <a class="sidenav__frontpage" href="#frontpage" onclick="closeNav()">FRONTPAGE</a>
+        <a href="#about" onclick="closeNav()">ABOUT</a>
+        <a href="#resume" onclick="closeNav()">RESUME</a>
+        <a href="#portfolio" onclick="closeNav()">PORTFOLIO</a>
+        <a href="#contact" onclick="closeNav()">CONTACT</a>
+    </div>
+
+    <a href="https://www.linkedin.com/in/andylq/" target="_blank" class="sidenav__linkedin">in</a>
+    <a href="mailto:Alq@email.dk" class="sidenav__email"><i class="fas fa-envelope"></i></a>
+
+    <section class="banner" id="frontpage">
+
+        <p class="hello">HELLO I'M</p>
+        <h1 class="name">ANDY LE QUACH</h1>
+        <h2 class="title">WEB DEVELOPER</h2>
+        <!-- donwload resume -->
+        <a href="files/AndyLeQuach_CV.pdf" download class="download">DOWNLOAD MY RESUME</a>
+        <img src="img/Andy_headshot.png" class="banner__img" alt="">
+
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="topic__heading">ABOUT ME</h2>
+        <div class="aboutBox1">
+            <div class="about_pic1">
+                <img src="img/mig2.jpeg" alt="" class="about_img1">
+            </div>
+            <div class="icon_box1">
+                <i class="fas fa-user-tie"></i>
+                <p>Name's Andy</p>
+                <br>
+
+                <i class="fas fa-baby-carriage"></i>
+                <p>Born and raised in Denmark</p>
+            </div>
+            <div class="icon_box2">
+                <i class="fas fa-globe-americas"></i>
+                <p>Grew up speaking danish</p>
+                <br>
+
+                <i class="fas fa-map-pin" id="location"></i>
+                <p>Currently located in Aarhus C, DK</p>
+            </div>
+        </div>
+        <div class="aboutBox2">
+            <div class="about_pic2">
+                <img src="img/mig3.jpeg" alt="" class="about_img2">
+            </div>
+            <div class="about_text">
+                <p>I am a confident student with experience in management and teamwork. In working enviroments i am savy
+                    and function well in stressful situations.
+                    <br><br class="hide1">
+                    I am ready for anything in web development, i am still new to the game.
+                    Because of past experience, i know the importance of effective communication and work well in teams.
+                    Lastly i am very flexible and good at adapting my priorities.</p>
+            </div>
+        </div>
+
+        <!-- TWO PICS
+        4ICON - NAME LOCATED FROM LANGUAGE
+        SMALL TEXT ABOUT ME -->
+    </section>
+
+    <section class="resume" id="resume">
+        <h2 class="topic__heading">RESUME</h2>
+        <div class="experience">
+            <h3> EXPERIENCE</h3>
+
+            <div class="post">
+                <div class="resume__icon">
+                    <img src="img/DG.png" alt="">
+                </div>
+                <div class="resume__desc">
+                    <p class="resume__desc__heading">DigitalGuest</p>
+                    <p class="resume__desc__time">January 2019 - April 2019</p>
+                </div>
+                <div class="resume__content">
+                    <p class="resume__content__heading">Multimedia Intern</p>
+                    <p class="resume__content__text">The internship was a part of my AP in Multimedia design, i started
+                        back in 2017. So the learning goals of the internship were evolved around the multimedia design
+                        programme. I mainly worked with the company's <a href="https://digitalguest.com/"
+                            target="_blank">website</a>, which i had to design and develop in a CMS system called
+                        Wordpress. I also had small tasks that included JavaScript to help the developer team.
+                        Furthermore i worked with video editing and graphic design to supplement the website and some
+                        content for the marketing.</p>
+                </div>
+            </div>
+
+            <!-- TEMPLATE -->
+            <!-- <div class="dg">
+                <div class="resume__icon">
+
+                </div>
+                <div class="resume__desc">
+                    <p class="resume__desc__heading">DigitalGuest</p>
+                    <p class="resume__desc__time">January 2019 - April 2019</p>
+                </div>
+                <div class="resume__content">
+                    <p class="resume__content__heading">Multimedia Intern</p>
+                    <p class="resume__content__text">I worked with the company's <a href="https://digitalguest.com/" target="_blank">website</a>, which i had to design and develop in a CMS system called Wordpress. I also had small tasks that included JavaScript to help the developer team. Further more i worked with video editing and graphic design to supplement the website and some content for the marketing.</p>
+                </div>
+            </div> -->
+
+        </div>
+        <div class="education">
+            <h3>EDUCATION</h3>
+
+            <div class="post">
+                <div class="resume__icon">
+                    <img src="img/baaa.png" alt="">
+                </div>
+                <div class="resume__desc">
+                    <p class="resume__desc__heading">Business Academi Aarhus</p>
+                    <p class="resume__desc__time">January 2019 - April 2019</p>
+                </div>
+                <div class="resume__content">
+                    <p class="resume__content__heading">Bachelor Top-up, Web Development</p>
+                    <p class="resume__content__text">
+                        This is my current programme. Its a top-op of the AP Multimedia design. So far in the programme
+                        we have been exploring different web development topic, such as Node.js, React.js, ASP.NET MVC,
+                        databases, etc. Also i have chosen to add some XR in there, where we are exploring both VR and
+                        AR.
+                    </p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="resume__icon">
+                    <img src="img/humber.png" alt="">
+                </div>
+                <div class="resume__desc">
+                    <p class="resume__desc__heading">Humber College, Toronto</p>
+                    <p class="resume__desc__time">August 2018 - December 2018</p>
+                </div>
+                <div class="resume__content">
+                    <p class="resume__content__heading">Digital Communications</p>
+                    <p class="resume__content__text">As a part of my AP in multimedia design, i had the chance to go
+                        abroad in the third semester of the programme. I took this oppotunity immedietly after finding
+                        out, and started exploring my options. I had heard good stuff about Humber college in Toronto,
+                        Canada and decided therefore to go there. <br> Humber college was a very inspiring semester for
+                        me. I learned alot about canadian culture aswell as the culture of other people abroad. The
+                        school had what seemed like endless resources, and that made the whole semester extra special.
+                        The school had all the tools and materials you needed, and then some. It was also a great
+                        experience to see what people in the same field across the globe are doing different. How their
+                        enviroments and other influences had changed how they did their things.
+                        <br>Overall Humber taught me alot about many aspects of my life.</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="resume__icon">
+                    <img src="img/baaa.png" alt="">
+                </div>
+                <div class="resume__desc">
+                    <p class="resume__desc__heading">Business Academi Aarhus</p>
+                    <p class="resume__desc__time">August 2017 - June 2019</p>
+                </div>
+                <div class="resume__content">
+                    <p class="resume__content__heading">Academic Profession, Multimedia Design</p>
+                    <p class="resume__content__text">
+                        After my i finished my technical highschool, i worked for 2 years as a shiftmanager at
+                        McDonald's Tilst, Aarhus. After that i decided to apply for the business academi at the
+                        Multimedia design programme. The topic instantly caught my interest and i started to explore the
+                        field, as i did the programme. I was very invested in the different classes and had 100%
+                        attendace. Also i ended the programme in june 2019 with a top grade (12).
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="knowledge"></div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="topic__heading">PORTFOLIO</h2>
+
+        <div class="portfolio__container">
+            <a href="gbs.html" class="portfolio__post">
+                <div class="portfolio__imgBox">
+                    <img src="img/GBS.png" alt="">
+                </div>
+                <p class="portfolio__post__heading">Gratis boligsalg - PWA</p>
+                <p class="portfolio__post__text">As a part of a school project we had to develop a Progressive Web
+                    Application (PWA), for a startup company called Gratis Boligsalg.</p>
+            </a>
+            <a href="antik.html" class="portfolio__post">
+                <div class="portfolio__imgBox">
+                    <img src="img/au.png" id="au" alt="">
+                </div>
+                <p class="portfolio__post__heading">Aarhus Antik museum</p>
+                <p class="portfolio__post__text">This project was my first project, so dont look all that much into it.
+                    Im just proud of it and it made the base of what i know today. Thats why its here.</p>
+            </a>
+            <a href="keramik.html" class="portfolio__post">
+                <div class="portfolio__imgBox">
+                    <img src="img/keramik.png" alt="">
+                </div>
+                <p class="portfolio__post__heading">Formuleret Keramik</p>
+                <p class="portfolio__post__text">This project was my first project, so dont look all that much into it.
+                    Im just proud of it and it made the base of what i know today. Thats why its here.</p>
+            </a>
+            <a href="minimum.html" class="portfolio__post">
+                <div class="portfolio__imgBox">
+                    <img src="img/minimum.png" alt="">
+                </div>
+                <p class="portfolio__post__heading">Minimum</p>
+                <p class="portfolio__post__text">This project was my first project, so dont look all that much into it.
+                    Im just proud of it and it made the base of what i know today. Thats why its here.</p>
+            </a>
+            <a href="#" class="portfolio__post">
+                <div class="portfolio__imgBox">
+                    <img src="https://flintcounseling.org/wp-content/uploads/2020/03/coming-soon-1.png" alt="">
+                </div>
+                <p class="portfolio__post__heading">More coming Soon</p>
+                <p class="portfolio__post__text">I want this?</p>
+            </a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>CONTACT</h2>
+        <p class="contact__subheading">Let's talk today!</p>
+        <hr class="contact__line">
+        <div class="contact__container1">
+            <a href="mailto:alq@email.dk" class="contact__email">ALQ@email.dk</a>
+            <a href="tel:004593107450" class="contact__tlf">+45 93 10 74 50</a>
+        </div>
+        <p class="or">OR</p>
+        <div class="contact__container2">
+            <a href="files/AndyLeQuach_CV.pdf" download class="contact__download">DOWNLOAD MY RESUME</a>
+            <a href="https://www.linkedin.com/in/andylq/" target="_blank" class="contact__download">CHECK OUT MY
+                LINKEDIN</a>
+        </div>
+    </section>
+    <div class="bottomfiller"></div>
+
+    <script>
+        var div = document.createElement('div');
+        div.className = 'fb-customerchat';
+        div.setAttribute('page_id', '104874351194745');
+        div.setAttribute('ref', 'b64:bGl2ZS1jaGF0');
+        div.setAttribute('logged_in_greeting', 'Hi! Log in to live chat with me!');
+        document.body.appendChild(div);
+        window.fbMessengerPlugins = window.fbMessengerPlugins || {
+            init: function () {
+                FB.init({
+                    appId: '1678638095724206',
+                    autoLogAppEvents: true,
+                    xfbml: true,
+                    version: 'v3.3'
+                });
+            }, callable: []
+        };
+        window.fbAsyncInit = window.fbAsyncInit || function () {
+            window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+            window.fbMessengerPlugins.init();
+        };
+        setTimeout(function () {
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) { return; }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        }, 0);
+    </script>
+
+    <script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "65vw";
+            document.getElementById("main").style.marginRight = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>
